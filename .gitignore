@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.cursor/
+
+# Source PDFs (content already extracted to js/data)
+exams/
+*.pdf
+*.zip
+
+# Logs / temp
+*.log
+*.tmp
