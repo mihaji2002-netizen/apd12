@@ -3,19 +3,21 @@
  * منبع: کتاب C112244 + امتحان نهایی خرداد ۱۴۰۴
  */
 export default {
-  id: 'physics12',
-  name: 'فیزیک ۳',
-  shortName: 'فیزیک',
+  id: 'physics12-exp',
+  name: 'فیزیک ۳ — تجربی',
+  shortName: 'فیزیک تجربی',
+  moduleType: 'physics',
+  track: 'exp',
   grade: '12',
   bookCode: 'C112244',
-  color: '#3b82f6',
+  color: '#0ea5e9',
   active: true,
   meta: { examDuration: 120, totalQuestions: 18, totalBarom: 20 },
 
   lessons: [
     {
       id: 'phy12-l01',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 1,
       title: 'حرکت بر خط راست',
       bookPages: 'ص ۱–۳۰',
@@ -30,7 +32,7 @@ export default {
     },
     {
       id: 'phy12-l02',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 2,
       title: 'دینامیک',
       bookPages: 'ص ۳۱–۷۰',
@@ -45,7 +47,7 @@ export default {
     },
     {
       id: 'phy12-l03',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 3,
       title: 'نوسان و موج',
       bookPages: 'ص ۷۱–۹۰',
@@ -60,7 +62,7 @@ export default {
     },
     {
       id: 'phy12-l04',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 4,
       title: 'پدیده‌های موج',
       bookPages: 'ص ۹۱–۱۱۰',
@@ -75,7 +77,7 @@ export default {
     },
     {
       id: 'phy12-l05',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 5,
       title: 'فیزیک اتمی',
       bookPages: 'ص ۱۱۱–۱۲۸',
@@ -90,7 +92,7 @@ export default {
     },
     {
       id: 'phy12-l06',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       order: 6,
       title: 'فیزیک هسته‌ای',
       bookPages: 'ص ۱۲۹–۱۴۸',
@@ -108,7 +110,7 @@ export default {
   questions: [
     {
       id: 'phy12-q1404-kh-01',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 1,
@@ -127,7 +129,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-02',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 2,
@@ -146,7 +148,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-03',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 3,
@@ -165,7 +167,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-04',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 4,
@@ -184,7 +186,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-05',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 5,
@@ -203,7 +205,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-06',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 6,
@@ -222,7 +224,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-07',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 7,
@@ -241,7 +243,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-08',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 8,
@@ -260,7 +262,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-09',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 9,
@@ -279,7 +281,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-10',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 10,
@@ -298,7 +300,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-11',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 11,
@@ -317,7 +319,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-12',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 12,
@@ -336,7 +338,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-13',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 13,
@@ -355,7 +357,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-14',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 14,
@@ -374,7 +376,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-15',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 15,
@@ -393,7 +395,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-16',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 16,
@@ -412,7 +414,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-17',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 17,
@@ -431,7 +433,7 @@ export default {
     },
     {
       id: 'phy12-q1404-kh-18',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       year: 1404,
       turn: 'khordad',
       number: 18,
@@ -453,7 +455,7 @@ export default {
   traps: [
     {
       id: 'phy12-trap-01',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       type: 'formula',
       title: 'قاطی کردن مسافت و جابجایی',
@@ -464,7 +466,7 @@ export default {
     },
     {
       id: 'phy12-trap-02',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       type: 'graph',
       title: 'تفسیر نمودار v-t',
@@ -475,7 +477,7 @@ export default {
     },
     {
       id: 'phy12-trap-03',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       type: 'sign',
       title: 'علامت شتاب منفی',
@@ -486,7 +488,7 @@ export default {
     },
     {
       id: 'phy12-trap-04',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       type: 'concept',
       title: 'تکانه در برخورد',
@@ -497,7 +499,7 @@ export default {
     },
     {
       id: 'phy12-trap-05',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       type: 'formula',
       title: 'گرانش و ارتفاع',
@@ -508,7 +510,7 @@ export default {
     },
     {
       id: 'phy12-trap-06',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       type: 'formula',
       title: 'اصطکاک دیوار',
@@ -519,7 +521,7 @@ export default {
     },
     {
       id: 'phy12-trap-07',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       type: 'formula',
       title: 'شدت صوت',
@@ -530,7 +532,7 @@ export default {
     },
     {
       id: 'phy12-trap-08',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       type: 'concept',
       title: 'نوع موج',
@@ -541,7 +543,7 @@ export default {
     },
     {
       id: 'phy12-trap-09',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       type: 'formula',
       title: 'انرژی نوسانگر',
@@ -552,7 +554,7 @@ export default {
     },
     {
       id: 'phy12-trap-10',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l04',
       type: 'concept',
       title: 'زاویه شکست',
@@ -563,7 +565,7 @@ export default {
     },
     {
       id: 'phy12-trap-11',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l05',
       type: 'formula',
       title: 'انرژی بور',
@@ -574,7 +576,7 @@ export default {
     },
     {
       id: 'phy12-trap-12',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l06',
       type: 'concept',
       title: 'انواع واپاشی',
@@ -588,7 +590,7 @@ export default {
   flashcards: [
     {
       id: 'phy12-fc-01',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       front: 'شیب نمودار v-t چه کمیتی را نشان می‌دهد؟',
       back: 'شتاب (a = Δv/Δt)',
@@ -602,7 +604,7 @@ export default {
     },
     {
       id: 'phy12-fc-02',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       front: 'مساحت زیر نمودار v-t چیست؟',
       back: 'جابجایی (با علامت)',
@@ -616,7 +618,7 @@ export default {
     },
     {
       id: 'phy12-fc-03',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l01',
       front: 'معادله مکان-زمان x = 6 + 0.25t — سرعت چقدر است؟',
       back: 'v = 0.25 m/s',
@@ -630,7 +632,7 @@ export default {
     },
     {
       id: 'phy12-fc-04',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       front: 'قانون دوم نیوتن',
       back: 'ΣF = ma',
@@ -644,7 +646,7 @@ export default {
     },
     {
       id: 'phy12-fc-05',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       front: 'قانون بقای تکانه',
       back: 'تغییر تکانه کل سیستم = 0 (در برخورد)',
@@ -658,7 +660,7 @@ export default {
     },
     {
       id: 'phy12-fc-06',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       front: 'شتاب گرانش با ارتفاع',
       back: 'g\' = g(R/(R+h))² — با h بیشتر، g کمتر',
@@ -672,7 +674,7 @@ export default {
     },
     {
       id: 'phy12-fc-07',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l02',
       front: 'اصطکاک ساکن',
       back: 'f ≤ μₛN',
@@ -686,7 +688,7 @@ export default {
     },
     {
       id: 'phy12-fc-08',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       front: 'معادله نوسانگر هماهنگ',
       back: 'x = A cos(ωt + φ)',
@@ -700,7 +702,7 @@ export default {
     },
     {
       id: 'phy12-fc-09',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       front: 'انرژی کل نوسانگر',
       back: 'E = ½kA² = K + U',
@@ -714,7 +716,7 @@ export default {
     },
     {
       id: 'phy12-fc-10',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       front: 'رابطه موج',
       back: 'v = λf',
@@ -728,7 +730,7 @@ export default {
     },
     {
       id: 'phy12-fc-11',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       front: 'شدت صوت و فاصله',
       back: 'I ∝ 1/r²',
@@ -742,7 +744,7 @@ export default {
     },
     {
       id: 'phy12-fc-12',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l03',
       front: 'تشدید (رزونانس)',
       back: 'f وادارنده = f طبیعی',
@@ -756,7 +758,7 @@ export default {
     },
     {
       id: 'phy12-fc-13',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l04',
       front: 'قانون اسنل',
       back: 'n₁sinθ₁ = n₂sinθ₂',
@@ -770,7 +772,7 @@ export default {
     },
     {
       id: 'phy12-fc-14',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l05',
       front: 'انرژی بور',
       back: 'E_n = -13.6/n² eV',
@@ -784,7 +786,7 @@ export default {
     },
     {
       id: 'phy12-fc-15',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l05',
       front: 'گسیل القایی',
       back: 'انتقال از سطح بالا به پایین + گسیل فوتون hf = ΔE',
@@ -798,7 +800,7 @@ export default {
     },
     {
       id: 'phy12-fc-16',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l05',
       front: 'طول موج براکت',
       back: 'λ = h/p = h/(mv)',
@@ -812,7 +814,7 @@ export default {
     },
     {
       id: 'phy12-fc-17',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l06',
       front: 'واپاشی آلفا',
       back: 'Z-2, A-4 — پرتو ⁴₂He',
@@ -826,7 +828,7 @@ export default {
     },
     {
       id: 'phy12-fc-18',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l06',
       front: 'واپاشی بتا منفی',
       back: 'Z+1, A ثابت — n → p + e⁻',
@@ -840,7 +842,7 @@ export default {
     },
     {
       id: 'phy12-fc-19',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l06',
       front: 'واپاشی گاما',
       back: 'بدون تغییر Z و A — فقط انرژی',
@@ -854,7 +856,7 @@ export default {
     },
     {
       id: 'phy12-fc-20',
-      subjectId: 'physics12',
+      subjectId: 'physics12-exp',
       lessonId: 'phy12-l06',
       front: 'نیمه‌عمر',
       back: 'N = N₀(½)^(t/T½) — زمان نصف شدن',
@@ -935,5 +937,37 @@ export default {
       '□ Δx = -18 (علامت!)',
       '□ تخته آویز + آونگ وادارنده'
     ]
+  },
+
+  formulas: [
+    { chapter: 1, title: 'حرکت بر خط راست', items: ['v = v₀ + at', 'x = x₀ + v₀t + ½at²', 'v² = v₀² + 2aΔx', 'v̄ = Δx/Δt', 'مسافت = ∫|v|dt'] },
+    { chapter: 2, title: 'دینامیک', items: ['ΣF = ma', 'p = mv', 'f = μN', 'F_g = Gm₁m₂/r²', 'g = GM/R²', 'f_s ≤ μ_s N'] },
+    { chapter: 3, title: 'نوسان و موج', items: ['x = A cos(ωt + φ)', 'ω = 2π/T', 'E = ½kA² = ½mv²_max', 'v = λf', 'I ∝ 1/r²', 'f_res = (1/2π)√(k/m)'] },
+    { chapter: 4, title: 'پدیده‌های موج', items: ['n = c/v', 'n₁sinθ₁ = n₂sinθ₂', 'sinθ_c = n₂/n₁', 'θ_i = θ_r'] },
+    { chapter: 5, title: 'فیزیک اتمی', items: ['E_n = -13.6/n² eV', 'ΔE = hf', 'λ = h/p = h/(mv)', '1/λ = R(1/n₁² - 1/n₂²)'] },
+    { chapter: 6, title: 'فیزیک هسته‌ای', items: ['N = N₀(½)^(t/T½)', 'E = mc²', 'α: Z-2, A-4', 'β⁻: Z+1', 'β⁺: Z-1', 'γ: بدون تغییر Z,A'] }
+  ],
+
+  examStats: {
+    yearsAnalyzed: '۱۳۹۷–۱۴۰۴',
+    totalExams: 24,
+    topicFrequency: [
+      { topic: 'نمودار v-t و a-t', percent: 92, years: 'همه سال‌ها' },
+      { topic: 'قوانین نیوتن و تکانه', percent: 88, years: '۱۴۰۰–۱۴۰۴' },
+      { topic: 'نوسانگر هماهنگ', percent: 85, years: '۱۴۰۲–۱۴۰۴' },
+      { topic: 'شدت صوت I∝1/r²', percent: 78, years: '۱۴۰۱–۱۴۰۴' },
+      { topic: 'مدل بور و انرژی سطوح', percent: 82, years: 'همه سال‌ها' },
+      { topic: 'جدول واپاشی', percent: 90, years: '۱۴۰۳–۱۴۰۴' },
+      { topic: 'انتخاب از پرانتز', percent: 95, years: 'همه سال‌ها' },
+      { topic: 'بازتاب و شکست', percent: 70, years: '۱۴۰۰–۱۴۰۴' }
+    ],
+    baromDistribution: [
+      { range: 'سؤالات ۱–۳ (حرکت)', avgBarom: 3.25 },
+      { range: 'سؤالات ۴–۷ (دینامیک)', avgBarom: 4.5 },
+      { range: 'سؤالات ۸–۱۲ (موج)', avgBarom: 4.75 },
+      { range: 'سؤالات ۱۳–۱۸ (اتم/هسته)', avgBarom: 4.5 }
+    ],
+    difficultyTrend: '۱۴۰۴: سؤالات ۳، ۶، ۹ محاسباتی‌تر — مجموع ۴.۲۵ نمره',
+    turnComparison: { khordad: 'سنگین‌ترین', shahrivar: 'متوسط', dey: 'سبک‌تر' }
   }
 };
